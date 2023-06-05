@@ -1,0 +1,61 @@
+#about {
+    .container {
+        padding: 100px 0;
+        width: 95%;
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .content, img {
+        width: 50%
+    }
+
+    img {
+        height: 400px;
+        object-fit: contain;
+        object-position: left;
+    }
+
+    h2 {
+        color: $orange;
+        margin-bottom: 20px;
+    }
+    
+
+    h1 {
+        line-height: 1.2em;
+        font-size: 4em;
+        color: $blue;
+    }
+
+    p {
+        color: $blue;
+        margin: 20px 0;
+        line-height: 30px;
+    }
+
+    span {
+        font-weight: bold;
+        color: $blue;
+        margin-left: 10px; 
+    }
+}
+
+#about .list {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+
+    li {
+        list-style: none;
+        font-weight: bold;
+        color: $blue;
+        line-height: 30px;
+    
+        span {
+            color: $orange;
+        }
+    }
+}

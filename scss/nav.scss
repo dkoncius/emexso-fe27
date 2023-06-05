@@ -12,22 +12,5 @@ nav {
       gap: 15px;
       font-weight: bold;
     }
-  
-    .button {
-      background: $orange;
-      color: white;
-      width: 100px;
-      height: 40px;
-      border-radius: 4px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border: 2px solid $orange;
-      transition: 0.3s;
-  
-      &:hover {
-        background: transparent;
-        color: $orange;
-      }
-    }
+
   }

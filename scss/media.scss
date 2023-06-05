@@ -1,3 +1,4 @@
+// Header, nav
 @media (max-width: 768px){
     header {
       flex-direction: column;
@@ -14,5 +15,63 @@
     nav .links {
       display: none;
     }
+}
+
+// Section, hero
+@media (max-width: 768px) {
+  #hero .container,
+  #about .container {
+    flex-direction: column;
+    text-align: center;
+
+    .content, img {
+      width: 100%;
+    }
+
+    img {
+      margin: 50px auto;
+      width: 400px;
+      object-position: center;
+    }
+
+    span {
+      display: block;
+      margin: 0;
+      margin-top: 40px;
+    }
+
+    .button {
+      display: block;
+      width: 100%;
+    }
   }
+
+  #about .list {
+    flex-direction: column;
+    gap: 0;
+    
+    li {
+      line-height: 40px;
+    }
+
+    span {
+      display: inline;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  #hero {
+    h1 {
+      font-size: 3em;
+    }
+
+    img {
+      max-width: 300px;
+      margin: auto !important;
+    }
+  }
+}
+
+
   

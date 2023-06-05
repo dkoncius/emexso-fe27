@@ -1,0 +1,45 @@
+#hero {
+    background: $cream;
+    
+    .container {
+        padding: 100px 0;
+        width: 95%;
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+    }
+
+    .content, img {
+        width: 50%
+    }
+
+    img {
+        height: 400px;
+        object-fit: contain;
+        object-position: right;
+    }
+
+    h2 {
+        color: $orange;
+        margin-bottom: 20px;
+    }
+    
+
+    h1 {
+        line-height: 1.2em;
+        font-size: 4em;
+        color: $blue;
+    }
+
+    p {
+        color: $blue;
+        margin: 20px 0;
+        line-height: 30px;
+    }
+
+    span {
+        font-weight: bold;
+        color: $blue;
+        margin-left: 10px; 
+    }
+}
